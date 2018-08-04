@@ -53,7 +53,19 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+   <groupId>org.wildfly.plugins</groupId>
+   <artifactId>wildfly-maven-plugin</artifactId>
+   <version>9.0.2.Final</version>
+   <configuration>
+      <hostname>${hostname}</hostname>
+      <port>8082</port>
+      <username>admin</username>
+      <password>admin</password>
+   </configuration>
+</plugin>
 		</plugins>
 	</build>
+
 
 </project>
