@@ -58,7 +58,8 @@
    <artifactId>wildfly-maven-plugin</artifactId>
    <version>1.0.2.Final</version>
    <configuration>
-      <hostname>192.168.1.8</hostname>
+   <jbossHome>C:\Users\Banao\OneDrive\Bureau\wildfly-9.0.2.Final</jbossHome>
+      <hostname>localhost</hostname>
       <port>8082</port>
       <username>admin</username>
       <password>admin</password>
