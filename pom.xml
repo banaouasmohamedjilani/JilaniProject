@@ -60,7 +60,7 @@
    <configuration>
    <jbossHome>C:\Users\Banao\OneDrive\Bureau\wildfly-9.0.2.Final</jbossHome>
       <hostname>localhost</hostname>
-      <port>8082</port>
+      <port>9992</port>
       <username>admin</username>
       <password>admin</password>
    </configuration>
